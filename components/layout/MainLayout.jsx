@@ -29,8 +29,8 @@ const MainLayout = ({
 
         {/* Twitter Meta Tags */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta property='twitter:domain' content='www.dadosypixeles.es' />
-        <meta name='twitter:site' content='@DadosyPixeles' />
+        <meta property='twitter:domain' content='www.carlosajenjo.es' />
+        <meta name='twitter:site' content='@caraje_' />
         <meta name='twitter:creator' content={author} />
         <meta property='twitter:url' content={url} />
         <meta name='twitter:title' content={title} />
