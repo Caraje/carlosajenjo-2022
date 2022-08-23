@@ -8,9 +8,9 @@ export const db = {
       description: [
         'Es una web centrada en series, juegos de mesa, cine y videojuegos, que nació como un proyecto personal de amigos, un lugar donde poder escribir y hablar sobre algunos de sus hobbies habituales.',
 
-        'Se trata de una versión preliminar del proyecto, mientras se prepara un proyecto más complejo y con mas características, sin embargo, para el inicio del proyecto la prioridad era poder subir los artículos de forma fácil y rápida, por eso opte por usar Next.js y subir los artículos desde archivos Markdown.',
+        'Se trata de una versión preliminar del proyecto, mientras se prepara un proyecto más complejo y con más características, sin embargo, para el inicio del proyecto la prioridad era poder subir los artículos de forma fácil y rápida, por eso opte por usar Next.js y subir los artículos desde archivos Markdown.',
 
-        'El proyecto esta creado desde cero sin usar paquetes de terceros y mantenerlo lo mas sencillo posible, para mas adelante hacerlo evolucionar y añadirle características mas complejas tanto para los miembros que colaboran con el proyecto como los usuarios que lo visitan.',
+        'El proyecto esta creado desde cero sin usar paquetes de terceros y mantenerlo lo más sencillo posible, para más adelante hacerlo evolucionar y añadirle características más complejas tanto para los miembros que colaboran con el proyecto como los usuarios que lo visitan.',
       ],
       techList: ['HTML', 'CSS', 'Javascript', 'React', 'Next-js'],
       urlGit: 'https://github.com/Caraje/dadosypixeles',
@@ -24,7 +24,7 @@ export const db = {
       description: [
         'Una versión del popular juego de cartas “Memory”, donde el jugador deberá encontrar parejas dentro de un número determinado de cartas, una vez que el jugador revela todas las parejas disponibles el juego termina.',
 
-        'Está creado usando React con la intención de practicar la comunicación entre componentes y el uso del “state”, además este proyecto supuso mi primer contacto con “SASS” del cual tambien tenia interés de comprobar su funcionamiento.',
+        'Está creado usando React con la intención de practicar la comunicación entre componentes y el uso del “state”, además este proyecto supuso mi primer contacto con “SASS” del cual también tenía interés de comprobar su funcionamiento.',
 
         'El juego además cuenta con sistema de puntuación para el jugador en base de aciertos y fallos durante la partida, quedando reflejados los puntos totales, los intentos que ha tenido para completarlo y la cantidad de fallos.',
       ],
@@ -126,7 +126,7 @@ export const db = {
       description: [
         'Es el proyecto de la que fue mi primera web personal, antes de esta que está disponible actualmente, fue creada con React como forma de practicar con esta tecnología.',
 
-        'Fue un proyecto sencillo pero que me permitió aprender mucho, por eso me gusta conservarla, mas por motivos sentimentales que prácticos.',
+        'Fue un proyecto sencillo pero que me permitió aprender mucho, por eso me gusta conservarla, más por motivos sentimentales que prácticos.',
 
         'En este proyecto me centré también en el apartado visual, ya que era importante para mi web personal, sin embargo decidí cambiarla porque no representaba mis conocimientos actuales y podría realizar un mejor trabajo con mi experiencia actual.',
       ],
