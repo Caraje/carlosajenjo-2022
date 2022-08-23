@@ -31,11 +31,11 @@ const MainHome = ({ modal }) => {
               lograrlo.
             </p>
             <p>
-              Soy mas de buscar soluciones a problemas complicados que rendirme
+              Soy más de buscar soluciones a problemas complicados que rendirme
               ante un reto cuando parece imposible o creo no estar preparado
               para ello, eso me ha permitido alcanzar con relativa facilidad
               puestos de responsabilidad en anteriores trabajos, y es una de las
-              cosas que mas me atraen de la programación.
+              cosas que más me atraen de la programación.
             </p>
           </div>
           <button onClick={modal} className='btn__home'>
