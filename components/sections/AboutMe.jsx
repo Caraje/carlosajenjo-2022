@@ -29,7 +29,7 @@ const AboutMe = () => {
             inicio no esperaba que fuera atraerme, pero según investigaba más,
             más me atraía y quería conocer más, pase de no haber sentido interés
             por la programación a querer saber todo lo posible, algo que se
-            mantiene bastante tiempo después por lo que decidi dedicarme por
+            mantiene bastante tiempo después por lo que decidí dedicarme por
             completo a ello.
           </p>
           <p>
