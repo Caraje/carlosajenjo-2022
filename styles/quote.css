@@ -1,0 +1,25 @@
+@import "./customProperties.css";
+
+
+.quote{
+  background-color: var(--blueWebDark);
+  margin: 0;
+  padding: 1rem;
+}
+.quote p {
+  text-align: center;
+  color: var(--whiteWeb);
+  font-size: .8rem;
+}
+
+
+@media (min-width: 768px) {
+  .quote p{
+    font-size: 1.2rem;
+  }
+}
+
+.quote p span {
+  font-style: italic;
+  color: var(--blueWebLight);
+}

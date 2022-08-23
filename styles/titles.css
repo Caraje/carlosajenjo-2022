@@ -1,0 +1,44 @@
+@import "./customProperties.css";
+
+
+
+.title__title{
+  width: 100%;
+  margin: 1rem 0 3rem 0;
+}
+
+@media (min-width: 768px) {
+  .title__title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+}
+
+.title__title h2{
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  color: var(--blueWebDark);
+  font-weight: var(--fontTitles);
+}
+
+.title__void {
+  height: 10px;
+  width: 100%;
+  background-color: var(--blueWebDark);
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .title__void {
+    width: 67%;
+    margin-bottom: 1.2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .title__void {
+    width: 79%;
+  }
+}

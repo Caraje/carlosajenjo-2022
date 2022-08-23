@@ -1,0 +1,163 @@
+@import "./customProperties.css";
+
+
+.portfolio__content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .portfolio__content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+
+
+.portfolio__card {
+  background-color: var(--blueWebExtraLight);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border:1px solid #ccc;
+  margin: 1rem 0;
+  width: 100%
+}
+
+@media (min-width: 1024px) {
+  .portfolio__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+.portfolio__card__img {
+  position: relative;
+  width: 100%;
+  height: 15rem;
+}
+
+
+
+@media (min-width: 768px) {
+  .portfolio__card__img{
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio__card__img {
+    width: 60%;
+    height: 40rem;
+  }
+}
+.portfolio__card__info {
+  padding: 1rem;
+  width: 100%;
+}
+
+.portfolio__card__info h3 {
+  font-size: 2.5rem;
+  font-weight: var(--fontTitles);
+  color: var(--blueWebDark);
+  margin: 1rem 0;
+}
+
+.portfolio__card__info__paragraph p {
+  margin: 1rem 0;
+
+}
+
+.portfolio__card__tec {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__card__tec h4 {
+  font-size: 1.2rem;
+  font-weight: var(--fontTitles);
+  color: var(--blueWebDark);
+}
+
+.portfolio__card__tec__group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+@media (min-width: 1024px) {
+  .portfolio__card__tec__group {
+  justify-content: start;
+  }
+}
+
+.portfolio__tec{
+  width: 3rem;
+}
+
+.portfolio__card__btn__group {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+@media (min-width: 768px) {
+.portfolio__card__btn__group{
+  flex-direction: row;
+}
+}
+
+.btn__card {
+  width: 100%;
+  border: 2px solid var(--redWeb);
+  border-radius: 5px;
+  color: var(--blueWebDark);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5rem;
+  transition: all .3s ease-in-out;
+}
+.btn__card:hover {
+  background-color: var(--redWebDark);
+  box-shadow: 0 0 15px rgba(185, 5, 4, 0.5);
+  color: var(--whiteWeb);
+}
+
+
+.portfolio__btn{
+  margin: 2rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--redWeb);
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: var(--fontbold);
+  color: var(--whiteWeb);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio__btn:hover {
+  background-color: var(--redWebDark);
+  box-shadow: 0 0 15px rgba(185, 5, 4, 0.5);
+}
+
+@media (min-width: 1024px) {
+  .portfolio__btn{
+    width: 15rem;
+  }
+}
+
+.voidContent {
+  height: 11vh;
+}

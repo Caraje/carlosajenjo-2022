@@ -1,9 +1,13 @@
+@import "./customProperties.css";
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--primaryFont);
+  background-color: var(--whiteWeb);
+
 }
 
 a {
@@ -15,12 +19,20 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h1 {
+  font-weight: var(--fontSubTitles);
+}
+
+
+
+footer {
+  background-color: var(--blueWebDark);
+  width: 100%;
+  height: 50px;
+}
+
+
+::selection {
+  color: var(--whiteWeb);
+  background: var(--redWeb);
 }

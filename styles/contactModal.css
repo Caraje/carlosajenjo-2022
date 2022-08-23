@@ -1,0 +1,74 @@
+@import "./customProperties.css";
+
+
+.modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0,0, 0.4);
+  backdrop-filter: blur(15px);
+  z-index: 100;
+  overflow: hidden
+  
+}
+
+
+
+.contact {
+  /* height: 70vh; */
+  
+  width: 95vw;
+  background-color: var(--whiteWeb);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba( 0,0,0, 0.2);
+  padding: 0 3rem 3rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    width: 80vw;
+  }
+}
+@media (min-width: 1024px) {
+  .contact {
+    width: 50vw;
+  }
+}
+
+.title__form {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--blueWebDark);
+}
+
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.form__group__input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  font-family: var(--primaryFont);
+  font-weight: var(--fontSubTitles);
+  color: var(--blueWebDark);
+}
+
+.form__group__btn {
+  width: 100%;
+  border: none;
+  background-color: var(--redWeb);
+  padding: 1rem;
+  color: var(--whiteWeb);
+  font-family: var(--primaryFont);
+  font-weight: var(--fontbold);
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
