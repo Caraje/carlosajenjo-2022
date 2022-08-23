@@ -35,7 +35,7 @@ const PortfolioCard = ({
             {techList.map((tec, id) => (
               <div className='portfolio__tec' key={tec}>
                 <Image
-                  src={`/img_static/icons/${tec}.png`}
+                  src={`https://res.cloudinary.com/caraje/image/upload/v1661258060/${tec}.png`}
                   alt={tec}
                   width={351}
                   height={351}
