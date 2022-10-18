@@ -5,7 +5,7 @@ import Navbar from '../ui/Navbar'
 const MainLayout = ({
   children,
   title,
-  description,
+  desc,
   url,
   img,
   author,
@@ -18,13 +18,15 @@ const MainLayout = ({
         <link rel='icon' href='/img_static/favicon.ico' />
         <meta name='keywords' content='HTML, CSS, JavaScript' />
         <title>{title}</title>
-        <meta name='description' content={description} />
+        <meta name='description' content={desc} />
+        <meta name='image' property='og:image' content={img} />
+        <meta name='author' content={author} />
 
         {/* Facebook Meta Tags */}
         <meta property='og:url' content={url} />
         <meta property='og:type' content='website' />
         <meta property='og:title' content={title} />
-        <meta property='og:description' content={description} />
+        <meta property='og:description' content={desc} />
         <meta property='og:image' content={img} />
 
         {/* Twitter Meta Tags */}
@@ -34,7 +36,7 @@ const MainLayout = ({
         <meta name='twitter:creator' content={author} />
         <meta property='twitter:url' content={url} />
         <meta name='twitter:title' content={title} />
-        <meta name='twitter:description' content={description} />
+        <meta name='twitter:description' content={desc} />
         <meta name='twitter:image' content={img} />
       </Head>
 
