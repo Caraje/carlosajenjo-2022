@@ -16,7 +16,7 @@ const Post = ({ source, frontmatter, posts }) => {
     <MainLayout
       title={title}
       url={url}
-      img={`https://res.cloudinary.com/caraje/image/upload/${img}`}
+      img={img}
       description={article}
       author={twitter}
       tags={tags}
