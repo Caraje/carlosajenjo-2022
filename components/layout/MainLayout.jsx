@@ -2,16 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '../ui/Navbar'
 
-const MainLayout = ({
-  children,
-  title,
-  desc,
-  url,
-  img,
-  author,
-  tags,
-  modal,
-}) => {
+const MainLayout = ({ children, title, desc, url, img, author, modal }) => {
   return (
     <>
       <Head>

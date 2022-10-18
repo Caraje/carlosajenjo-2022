@@ -7,7 +7,7 @@ import ContactModal from '../../components/sections/ContactModal'
 import { getAllFilesMetadata, getFileBySlug, getFiles } from '../../lib/mdx'
 
 const Post = ({ source, frontmatter, posts }) => {
-  const { title, url, article, img, twitter, tags } = frontmatter
+  const { title, url, article, img, twitter, tags, desc } = frontmatter
   const [isModalOpen, setIsModalOpen] = useState(false)
   const openModal = () => {
     setIsModalOpen(!isModalOpen)
@@ -16,10 +16,11 @@ const Post = ({ source, frontmatter, posts }) => {
     <MainLayout
       title={title}
       url={url}
-      img={img}
+      img={`https://res.cloudinary.com/caraje/image/upload/${img}`}
       description={article}
       author={twitter}
       tags={tags}
+      desc={desc}
       modal={openModal}
     >
       {isModalOpen && <ContactModal modal={openModal} />}
@@ -27,7 +28,7 @@ const Post = ({ source, frontmatter, posts }) => {
         <header className='article__header'>
           <picture className='article__img'>
             <Image
-              src={img}
+              src={`https://res.cloudinary.com/caraje/image/upload/${img}`}
               alt='Carlos Ajenjo'
               objectFit='cover'
               layout='fill'

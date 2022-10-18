@@ -11,7 +11,7 @@ const CardArticle = ({ post }) => {
         <div className='cardEntry'>
           <picture className='cardEntry__img'>
             <Image
-              src={img}
+              src={`https://res.cloudinary.com/caraje/image/upload/${img}`}
               alt='Carlos Ajenjo'
               objectFit='cover'
               layout='responsive'
