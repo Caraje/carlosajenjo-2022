@@ -16,7 +16,7 @@ const Post = ({ source, frontmatter, posts }) => {
     <MainLayout
       title={title}
       url={`http://localhost:3000/series/${url}`}
-      img={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
+      img={img}
       description={article}
       author={twitter}
       tags={tags}
