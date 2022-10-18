@@ -6,6 +6,8 @@ import '../styles/quote.css'
 import '../styles/portfolioCard.css'
 import '../styles/aboutMe.css'
 import '../styles/contactModal.css'
+import '../styles/blogIndex.css'
+import '../styles/articlePage.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

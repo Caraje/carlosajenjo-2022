@@ -5,16 +5,9 @@ import Portfolio from '../components/sections/Portfolio'
 import AboutMe from '../components/sections/AboutMe'
 import ContactModal from '../components/sections/ContactModal'
 import { useState } from 'react'
+import { SEO } from '../utils/seo'
 
-const SEO = {
-  title: 'Carlos Ajenjo: Front-end developer',
-  description:
-    'Pagina web de Carlos Ajenjo, desarrollador Front-end, portfolio para mostrar algunos de los proyectos en los que he tenido la ocasion de trabajar.',
-  img: 'https://res.cloudinary.com/caraje/image/upload/v1661263182/cibt2p9bztdn4odwwk5j.webp',
-  url: 'https://www.carlosajenjo.es',
-  author: '@caraje_',
-  tags: 'front-end, front-end developer, react, next.js, javascript, node, css, junior, portfolio',
-}
+
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 

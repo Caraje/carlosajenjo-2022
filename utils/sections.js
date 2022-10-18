@@ -11,4 +11,8 @@ export const sections = [
     title: 'Sobre mi',
     url: '#aboutme',
   },
+  {
+    title: 'Blog',
+    url: '/blog',
+  },
 ]

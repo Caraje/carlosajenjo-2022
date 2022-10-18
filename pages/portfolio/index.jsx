@@ -3,16 +3,7 @@ import MainLayout from '../../components/layout/MainLayout'
 import ContactModal from '../../components/sections/ContactModal'
 import PortfolioCard from '../../components/ui/PortfolioCard'
 import { db } from '../../database/infoBase'
-
-const SEO = {
-  title: 'Carlos Ajenjo: Front-end developer',
-  description:
-    'Pagina web de Carlos Ajenjo, desarrollador Front-end, portfolio para mostrar algunos de los proyectos en los que he tenido la ocasion de trabajar.',
-  img: 'https://res.cloudinary.com/caraje/image/upload/v1661263182/cibt2p9bztdn4odwwk5j.webp',
-  url: 'https://www.carlosajenjo.es',
-  author: '@caraje_',
-  tags: 'front-end, front-end developer, react, next.js, javascript, node, css, junior, portfolio',
-}
+import { SEO } from '../../utils/seo'
 
 const index = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
