@@ -15,7 +15,7 @@ const Post = ({ source, frontmatter, posts }) => {
   return (
     <MainLayout
       title={title}
-      url={`http://localhost:3000/series/${url}`}
+      url={url}
       img={img}
       description={article}
       author={twitter}
