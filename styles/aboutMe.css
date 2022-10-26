@@ -56,6 +56,7 @@
   }
 
   .about__info__text {
+    color:var(--textParagraph);
     max-width: 60%;
   }
 }

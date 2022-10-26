@@ -11,7 +11,6 @@ const BlogIndex = ({ posts, toggleTheme, theme }) => {
   const openModal = () => {
     setIsModalOpen(!isModalOpen)
   }
-  console.log({ posts })
   return (
     <MainLayout
       title={SEO.title}
