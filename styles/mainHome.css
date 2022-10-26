@@ -56,7 +56,7 @@
 .home__info h1 {
   font-size: 3rem;
   font-weight: var(--fontTitles);
-  color: var(--blueWebDark);
+  color: var(--textTitle);
   text-align: center;
   line-height: 0.7;
   margin: 1rem 0 ;
@@ -79,7 +79,7 @@
 
 .home__info__desc {
   font-weight: var(--fontNormal);
-  color: var(--blueWebDark);
+  color: var(--textParagraph);
   line-height: 1.3
 }
 
@@ -90,7 +90,7 @@
   font-size: 1.5rem;
   font-family: var(--primaryFont);
   font-weight: var(--fontbold);
-  color: var(--whiteWeb);
+  color: var(--textButton);
   border-radius: 5px;
   margin: 1rem 0;
   transition: all 0.3s ease-in-out;

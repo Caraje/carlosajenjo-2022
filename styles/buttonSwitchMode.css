@@ -1,0 +1,11 @@
+@import "./customProperties.css";
+
+
+
+.btn_switch {
+  border: none;
+  background-color: transparent;
+  height: 2rem;
+  width: 2rem;
+
+}

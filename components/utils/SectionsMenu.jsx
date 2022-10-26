@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 import { sections } from '../../utils/sections'
+import ButtonSwitchMode from '../ui/ButtonSwitchMode'
 
-const SectionsMenu = ({ menuMobile, closeMenu, modal }) => {
+const SectionsMenu = ({ menuMobile, closeMenu, modal, change, theme }) => {
   const openModal = () => {
     modal()
     // closeMenu()
@@ -21,6 +22,7 @@ const SectionsMenu = ({ menuMobile, closeMenu, modal }) => {
       <button onClick={openModal} className={'navbar__button'}>
         Contacto
       </button>
+      <ButtonSwitchMode change={change} theme={theme} />
     </div>
   )
 }

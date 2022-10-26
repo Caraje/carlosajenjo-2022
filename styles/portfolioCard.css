@@ -65,11 +65,12 @@
 .portfolio__card__info h3 {
   font-size: 2.5rem;
   font-weight: var(--fontTitles);
-  color: var(--blueWebDark);
+  color: var(--textBold);
   margin: 1rem 0;
 }
 
 .portfolio__card__info__paragraph p {
+  color: var(--textParagraph);
   margin: 1rem 0;
 
 }
@@ -82,7 +83,7 @@
 .portfolio__card__tec h4 {
   font-size: 1.2rem;
   font-weight: var(--fontTitles);
-  color: var(--blueWebDark);
+  color: var(--textBold);
 }
 
 .portfolio__card__tec__group {
@@ -121,7 +122,7 @@
   width: 100%;
   border: 2px solid var(--redWeb);
   border-radius: 5px;
-  color: var(--blueWebDark);
+  color: var(--textBold);
   text-align: center;
   font-size: 1.5rem;
   padding: .5rem;
@@ -130,7 +131,7 @@
 .btn__card:hover {
   background-color: var(--redWebDark);
   box-shadow: 0 0 15px rgba(185, 5, 4, 0.5);
-  color: var(--whiteWeb);
+  color: var(--textButton);
 }
 
 
@@ -142,7 +143,7 @@
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: var(--fontbold);
-  color: var(--whiteWeb);
+  color: var(--textButton);
   text-align: center;
   transition: all 0.3s ease-in-out;
 }

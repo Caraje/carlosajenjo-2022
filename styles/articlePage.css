@@ -32,16 +32,17 @@
 .article__title {
   position: absolute;
   bottom: 0;
-  color: var(--whiteWeb);
+  color: var(--textTitleFixed);
   margin: 2rem;
   font-size: 3rem;
   font-weight: var(--fontSubTitles);
 }
 
 .article__text {
-  color: var(--blackWeb);
+  color: var(--textParagraph);
   font-size: 1.5rem;
   line-height: 1.5;
+  padding: 0.5rem;
 }
 
 
@@ -52,21 +53,21 @@
 .article__text h1 {
   font-size: 3rem;
   font-weight: var(--fontTitles);
-  color: var(--blackWeb);
+  color: var(--textTitle);
   margin-bottom: 2rem;
 }
 
 .article__text h2 {
   font-size: 2rem;
   font-weight: var(--fontbold);
-  color: var(--blackWeb);
+  color: var(--textTitle);
   margin-bottom: 1rem;
 }
 
 .article__text h3 {
   font-size: 1.2rem;
   font-weight: var(--fontbold);
-  color: var(--blackWeb);
+  color: var(--textTitle);
   margin-bottom: 1rem;
 }
 

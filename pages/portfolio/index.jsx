@@ -5,7 +5,7 @@ import PortfolioCard from '../../components/ui/PortfolioCard'
 import { db } from '../../database/infoBase'
 import { SEO } from '../../utils/seo'
 
-const index = () => {
+const index = ({ toggleTheme }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const openModal = () => {
     setIsModalOpen(!isModalOpen)
@@ -19,6 +19,7 @@ const index = () => {
       author={SEO.author}
       tags={SEO.tags}
       modal={openModal}
+      toggleTheme={toggleTheme}
     >
       {/* MODAL CONTACTO*/}
       {isModalOpen && <ContactModal modal={openModal} />}

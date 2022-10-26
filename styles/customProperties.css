@@ -1,20 +1,33 @@
 :root {
+
   /*
     -----------------------------------------------------------------------
-                                Colores
+                                Colores Web
     -----------------------------------------------------------------------
-    */
+  */
+    --redWeb: #b90504;
+    --redWebLight: #f75762;
+    --redWebDark: #990100;
+    --blueWebDark: #2b2d42;
+    --blueWebLight: #8d99ae;
+    --blueWebExtraLight: #e8e8e8;
+    --whiteWeb: #f6f6f6;
+    --blackWeb: #333333; 
+    --pureWhite: #ffffff;
+    --pureBlack: #000000;
+  /*
+    -----------------------------------------------------------------------
+                                Colores Textos
+    -----------------------------------------------------------------------
+  */
+  --textTitle: #2b2d42;
+  --textTitleFixed: #f6f6f6;
+  --textParagraph: #333333;
+  --textButton: #f6f6f6;
+  --textBold: #2b2d42;
+  --textSecondary: #333333;
 
-  --redWeb: #b90504;
-  --redWebLight: #f75762;
-  --redWebDark: #990100;
-  --blueWebDark: #2b2d42;
-  --blueWebLight: #8d99ae;
-  --blueWebExtraLight: #e8e8e8;
-  --whiteWeb: #f6f6f6;
-  --blackWeb: #333333; 
-  --pureWhite: #ffffff;
-  --pureBlack: #000000;
+  
 
 
   /*
@@ -45,4 +58,35 @@
   --mobile: 768px;
   --tablet: 1024px;
   --desktop: 1280px;
+}
+
+
+[data-theme='dark']{
+    /*
+    -----------------------------------------------------------------------
+                                Colores Web
+    -----------------------------------------------------------------------
+  */
+  --redWeb: #b90504;
+  --redWebLight: #f75762;
+  --redWebDark: #990100;
+  --blueWebDark: #8d99ae;
+  --blueWebLight: #2b2d42;
+  --blueWebExtraLight: #8d99ae;
+  --whiteWeb: #2b2d42;
+  --blackWeb: #f6f6f6; 
+  --pureWhite: #000000;
+  --pureBlack: #ffffff;
+
+    /*
+    -----------------------------------------------------------------------
+                                Colores Textos
+    -----------------------------------------------------------------------
+  */
+  --textTitle: #f6f6f6;
+  --textTitleFixed: #f6f6f6;
+  --textParagraph: #f6f6f6;
+  --textButton: #f6f6f6;
+  --textBold: #2b2d42;
+  --textSecondary: #2b2d42;
 }

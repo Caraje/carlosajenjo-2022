@@ -8,7 +8,7 @@ import { useState } from 'react'
 import { SEO } from '../utils/seo'
 
 
-export default function Home() {
+export default function Home({ toggleTheme, theme }) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const openModal = () => {
@@ -23,6 +23,8 @@ export default function Home() {
       author={SEO.author}
       tags={SEO.tags}
       modal={openModal}
+      toggleTheme={toggleTheme}
+      theme={theme}
     >
       {/* MODAL CONTACTO*/}
       {isModalOpen && <ContactModal modal={openModal} />}

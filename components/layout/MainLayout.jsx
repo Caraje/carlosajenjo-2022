@@ -2,7 +2,17 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '../ui/Navbar'
 
-const MainLayout = ({ children, title, desc, url, img, author, modal }) => {
+const MainLayout = ({
+  children,
+  title,
+  desc,
+  url,
+  img,
+  author,
+  modal,
+  toggleTheme,
+  theme,
+}) => {
   return (
     <>
       <Head>
@@ -49,7 +59,7 @@ const MainLayout = ({ children, title, desc, url, img, author, modal }) => {
       </Head>
 
       <header>
-        <Navbar modal={modal} />
+        <Navbar modal={modal} toggleTheme={toggleTheme} theme={theme} />
       </header>
 
       <main>{children}</main>
