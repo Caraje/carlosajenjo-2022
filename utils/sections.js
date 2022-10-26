@@ -5,11 +5,11 @@ export const sections = [
   },
   {
     title: 'Portfolio',
-    url: '#portfolio',
+    url: '/#portfolio',
   },
   {
     title: 'Sobre mi',
-    url: '#aboutme',
+    url: '/#aboutme',
   },
   {
     title: 'Blog',
