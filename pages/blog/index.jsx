@@ -6,7 +6,7 @@ import ContactModal from '../../components/sections/ContactModal'
 import { getAllFilesMetadata } from '../../lib/mdx'
 import { SEO } from '../../utils/seo'
 
-const BlogIndex = ({ posts, toggleTheme }) => {
+const BlogIndex = ({ posts, toggleTheme, theme }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const openModal = () => {
     setIsModalOpen(!isModalOpen)
@@ -22,6 +22,7 @@ const BlogIndex = ({ posts, toggleTheme }) => {
       tags={SEO.tags}
       modal={openModal}
       toggleTheme={toggleTheme}
+      theme={theme}
     >
       {/* MODAL CONTACTO*/}
       {isModalOpen && <ContactModal modal={openModal} />}

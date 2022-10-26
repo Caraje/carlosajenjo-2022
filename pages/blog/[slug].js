@@ -6,7 +6,7 @@ import MainLayout from '../../components/layout/MainLayout'
 import ContactModal from '../../components/sections/ContactModal'
 import { getAllFilesMetadata, getFileBySlug, getFiles } from '../../lib/mdx'
 
-const Post = ({ source, frontmatter, posts, toggleTheme }) => {
+const Post = ({ source, frontmatter, posts, toggleTheme, theme }) => {
   const { title, url, article, img, twitter, tags, desc } = frontmatter
   const [isModalOpen, setIsModalOpen] = useState(false)
   const openModal = () => {
@@ -23,6 +23,7 @@ const Post = ({ source, frontmatter, posts, toggleTheme }) => {
       desc={desc}
       modal={openModal}
       toggleTheme={toggleTheme}
+      theme={theme}
     >
       {isModalOpen && <ContactModal modal={openModal} />}
       <div className='article container'>
