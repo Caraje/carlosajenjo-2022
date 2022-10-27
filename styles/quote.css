@@ -8,7 +8,7 @@
 }
 .quote p {
   text-align: center;
-  color: var(--whiteWeb);
+  color: var(--textTitleFixed);
   font-size: .8rem;
 }
 

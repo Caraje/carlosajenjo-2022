@@ -10,10 +10,9 @@ const Navbar = ({ modal, toggleTheme, theme }) => {
   const openMenu = () => {
     setIsOpen(!isOpen)
   }
-  const logo =
-    theme === 'dark'
-      ? 'https://res.cloudinary.com/caraje/image/upload/v1666802943/lpf9gbrc0jajyvgrawms.webp'
-      : 'https://res.cloudinary.com/caraje/image/upload/v1666802990/mg9tzjfdecqnrgl0plgk.webp'
+  const logo = theme
+    ? 'https://res.cloudinary.com/caraje/image/upload/v1666802943/lpf9gbrc0jajyvgrawms.webp'
+    : 'https://res.cloudinary.com/caraje/image/upload/v1666802990/mg9tzjfdecqnrgl0plgk.webp'
 
   return (
     <div className='navbar'>

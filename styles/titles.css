@@ -20,14 +20,14 @@
   font-size: 3rem;
   text-align: center;
   margin: 0;
-  color: var(--blueWebDark);
+  color: var(--textTitle);
   font-weight: var(--fontTitles);
 }
 
 .title__void {
   height: 10px;
   width: 100%;
-  background-color: var(--blueWebDark);
+  background-color: var(--textTitle);
   border-radius: 10px;
 }
 

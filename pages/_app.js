@@ -12,15 +12,23 @@ import '../styles/buttonSwitchMode.css'
 import { useEffect, useState } from 'react'
 
 function MyApp({ Component, pageProps }) {
-  const [theme, setTheme] = useState('light') // Initialize this to either "dark" or "light"
+  useEffect(() => {
+    const themeColor = JSON.parse(localStorage.getItem('theme'))
+
+    if (themeColor) {
+      setTheme(themeColor)
+    }
+  }, [])
+  const [theme, setTheme] = useState(false)
 
   const toggleTheme = () => {
-    setTheme(theme == 'light' ? 'dark' : 'light')
+    setTheme(!theme)
   }
 
   useEffect(() => {
     document.body.setAttribute('data-theme', theme)
-  }, [theme])
+    localStorage.setItem('theme', JSON.stringify(theme))
+  }, [theme, setTheme])
   return <Component {...pageProps} toggleTheme={toggleTheme} theme={theme} />
 }
 

@@ -5,7 +5,7 @@ import IconThemeLight from '../icons/IconThemeLight'
 const ButtonSwitchMode = ({ change, theme }) => {
   return (
     <button className='btn_switch' onClick={change}>
-      {theme !== 'dark' ? (
+      {!theme ? (
         <IconThemeDark color='#2b2d42' />
       ) : (
         <IconThemeLight color='#f6f6f6' />
