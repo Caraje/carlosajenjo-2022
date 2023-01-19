@@ -8,6 +8,7 @@ const SectionsMenu = ({ menuMobile, closeMenu, modal, change, theme }) => {
     modal()
     // closeMenu()
   }
+
   return (
     <div
       className={menuMobile ? 'navbar-mobile__sections' : 'navbar__sections'}

@@ -4,12 +4,26 @@ import Quote from '../components/sections/Quote'
 import Portfolio from '../components/sections/Portfolio'
 import AboutMe from '../components/sections/AboutMe'
 import ContactModal from '../components/sections/ContactModal'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { SEO } from '../utils/seo'
 
-
-export default function Home({ toggleTheme, theme }) {
+export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [theme, setTheme] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const themeColor = window.localStorage.getItem('theme')
+      if (themeColor) return JSON.parse(themeColor)
+      return false
+    }
+  })
+  useEffect(() => {
+    document.body.setAttribute('data-theme', theme)
+    localStorage.setItem('theme', JSON.stringify(theme))
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme(!theme)
+  }
 
   const openModal = () => {
     setIsModalOpen(!isModalOpen)
