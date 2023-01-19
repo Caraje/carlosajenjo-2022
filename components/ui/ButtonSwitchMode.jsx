@@ -6,9 +6,9 @@ const ButtonSwitchMode = ({ change, theme }) => {
   return (
     <button className='btn_switch' onClick={change}>
       {!theme ? (
-        <IconThemeDark color='#2b2d42' />
+        <IconThemeDark color='#f75762' />
       ) : (
-        <IconThemeLight color='#f6f6f6' />
+        <IconThemeLight color='#f75762' />
       )}
     </button>
   )
