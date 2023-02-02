@@ -19,21 +19,21 @@ export const db = {
     },
     {
       id: '02',
-      title: 'Emparejados',
-      img: '/auqtu0crizjjpdr1gdok.webp',
+      title: 'Answer for Developers',
+      img: '/nqkm06rb0davzpbvtbq8.webp',
       description: [
-        'Una versión del popular juego de cartas “Memory”, donde el jugador deberá encontrar parejas dentro de un número determinado de cartas, una vez que el jugador revela todas las parejas disponibles el juego termina.',
+        'Este proyecto fue creado para el Hackathon de Enero 2023 organizado por Midudev. Fue desarrollado con la tecnología de Inteligencia Artificial de Co:here.',
 
-        'Está creado usando React con la intención de practicar la comunicación entre componentes y el uso del “state”, además este proyecto supuso mi primer contacto con “SASS” del cual también tenía interés de comprobar su funcionamiento.',
-
-        'El juego además cuenta con sistema de puntuación para el jugador en base de aciertos y fallos durante la partida, quedando reflejados los puntos totales, los intentos que ha tenido para completarlo y la cantidad de fallos.',
+        'La propuesta consiste en que los usuarios puedan hacer preguntas sobre desarrollo web a la aplicación y recibir respuestas generadas por la IA de Co:here, basadas en su aprendizaje. Cuanto más detallada sea la pregunta, más clara será la respuesta generada.',
+        ,
       ],
-      techList: ['HTML', 'CSS', 'Javascript', 'React', 'Sass'],
-      url: '/portfolio/emparejados',
-      urlGit: 'https://github.com/Caraje/Emparejados',
-      urlDemo: 'https://caraje.github.io/Emparejados/',
+      techList: ['HTML', 'CSS', 'Javascript', 'React'],
+      url: '/portfolio/answer-for-developers',
+      urlGit: 'https://github.com/Caraje/Anwser-for-Developers',
+      urlDemo: 'https://answer-for-developers.vercel.app/',
       spotlight: true,
     },
+
     {
       id: '03',
       title: 'GifApp',
@@ -102,6 +102,23 @@ export const db = {
     },
     {
       id: '07',
+      title: 'Emparejados',
+      img: '/auqtu0crizjjpdr1gdok.webp',
+      description: [
+        'Una versión del popular juego de cartas “Memory”, donde el jugador deberá encontrar parejas dentro de un número determinado de cartas, una vez que el jugador revela todas las parejas disponibles el juego termina.',
+
+        'Está creado usando React con la intención de practicar la comunicación entre componentes y el uso del “state”, además este proyecto supuso mi primer contacto con “SASS” del cual también tenía interés de comprobar su funcionamiento.',
+
+        'El juego además cuenta con sistema de puntuación para el jugador en base de aciertos y fallos durante la partida, quedando reflejados los puntos totales, los intentos que ha tenido para completarlo y la cantidad de fallos.',
+      ],
+      techList: ['HTML', 'CSS', 'Javascript', 'React', 'Sass'],
+      url: '/portfolio/emparejados',
+      urlGit: 'https://github.com/Caraje/Emparejados',
+      urlDemo: 'https://caraje.github.io/Emparejados/',
+      spotlight: true,
+    },
+    {
+      id: '08',
       title: 'Calendario',
       img: '/wso5qaeiy5wnyablelsz.webp',
       description: [
@@ -117,10 +134,10 @@ export const db = {
       url: '/portfolio/calendario',
       urlGit: 'https://github.com/Caraje/CalenadarApp',
       urlDemo: 'https://calendar-app-back.vercel.app/',
-      spotlight: true,
+      spotlight: false,
     },
     {
-      id: '08',
+      id: '09',
       title: 'CarlosAjenjo(V1)',
       img: '/s4c4sspsobszujubwzc0.webp',
       description: [
